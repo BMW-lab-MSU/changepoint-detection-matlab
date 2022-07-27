@@ -1,5 +1,18 @@
 function [img,imgRow] = removeWaveletRows(img,imgRow,data)
 
+% removeEmptyRows Remove rows that have weak frequencies
+%
+% REQUIRES: img is LiDAR image matrix
+%           imgRow is a vector of the rows that exist in the image
+% MODIFIES: img
+%           imgRow
+% EFFECTS:  Removes the rows without frequency from img and removes the
+%           corresponding row number from imgRow.
+%           Ex: img = adjusted_data_junecal(1).normalized_data;
+%               imgRow = 1:178;
+%           If row 2 is removed, img will have 177 rows and imgRow will be
+%           the vector [1,3:178]
+
 tempWavelet = [];
 tempMax = 0;
 badRow = [];
