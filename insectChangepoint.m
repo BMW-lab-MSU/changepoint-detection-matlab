@@ -1,3 +1,13 @@
+% insectChangepoint InsectAlgorithm in script format instead of function
+%
+% k is the image number. You want to manually load in the data before
+% running the script
+%
+% The commented out for-loop is if you want to iterate through an entire
+% mat file (all 100 images or something). Make sure to uncomment the end at
+% the bottom of the script as well!
+%
+% The notes at the bottom were to keep track of changes I made
 
 % for k = 1:length(adjusted_data_decembercal)
 k = 47;

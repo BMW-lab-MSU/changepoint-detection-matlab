@@ -1,4 +1,4 @@
-function bug = algorithm3(data)
+function bug = insectAlgorithm(data)
 
 img = data.normalized_data;
 imgRow = 1:178;
@@ -97,9 +97,9 @@ end         % if statement #2 end
 end         % if statement #1 end
 
 if ~isempty(insectPos)
-    bug = 1;
+    bug = [];
 else
-    bug = 0;
+    bug = insectPos`;
 end
 
 end
