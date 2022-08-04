@@ -28,7 +28,9 @@ To see which images were false positives, false negatives, and correctly identif
 `insectAlgorithm.m` and `beesAlgorithm.m` are the functions that actually detect the insects. `insectChangepoint.m` and `beesChangepoint.m` are script versions of those functions. To run the changepoint scripts, manually load in the data, choose which image you want to look at, and then run the script. These scripts are useful for breakpoints.
 
 ## Stuff
-The other things I have tried are all in the stuff folder. I talk about some of it in my documentation. If you have any questions about anything in this folder just email me.
+The other things I have tried are all in the stuff folder. I talk about some of it in my documentation. Anything with gfpop in the file name uses the code from this repo: https://github.com/BMW-lab-MSU/gfpop-matlab
+
+If you have any questions about anything in this folder just email me.
 
 <br />
 <sup><sub>Written by Caroline Xu, NSF Research Experience for Undergraduates (REU) at Montana State University, 2022</sub></sup>
