@@ -1,7 +1,8 @@
 # MATLAB Changepoint Detection Algorithms
 This includes all files used for changepoint detection with the `findchangepts` function built into MATLAB. Just download everything and add to path. You'll need to download the LiDAR images as well.
 
-Here is the link to my report and my personal documentation over the 10 week period: https://www.overleaf.com/read/qktsqmkzvkqx
+Here is the link to my report and my personal documentation over the 10 week period: https://www.overleaf.com/read/qktsqmkzvkqx </br>
+I have also uploaded my final presentation to the repo.
 
 Feel free to reach out to me with any questions, concerns, or updates! I'd love to hear more about the progress of this project :)
 
@@ -24,7 +25,9 @@ To see which images were false positives, false negatives, and correctly identif
 
 `fnInsect.txt`, `fpInsect.txt`, and `pInsect.txt` list all of the false negatives, false positives, and identified insects respectively in the Hyalite dataset. Same thing for the bee dataset. `fnBee.txt`, `fpBee.txt`, and `pBee.txt` are from the bee algorithm on the bee dataset. `fnBeeInsect.txt`, `fpBeeInsect.txt`, and `pBeeInsect.txt` are from the insect algorithm on the bee dataset.
 
-## Testing
+The script `findBeesKnees` prints out all insect locations identified by the algorithm to a text file. This includes information about the image, row, and columns. 
+
+## Testing and Debugging
 `insectAlgorithm.m` and `beesAlgorithm.m` are the functions that actually detect the insects. `insectChangepoint.m` and `beesChangepoint.m` are script versions of those functions. To run the changepoint scripts, manually load in the data, choose which image you want to look at, and then run the script. These scripts are useful for breakpoints.
 
 ## Stuff
